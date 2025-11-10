@@ -1,0 +1,67 @@
+import { User, Doctor } from '../types';
+
+export const doctors: Doctor[] = [
+  { id: 1, name: 'Dr. Aman Kushwaha', department: 'Cardiology', specialization: 'Interventional Cardiology' },
+  { id: 2, name: 'Dr. Akash Gupta', department: 'Pediatrics', specialization: 'Neonatology' },
+  { id: 3, name: 'Dr. Sagar Kushwaha', department: 'Neurology', specialization: 'Epilepsy' },
+  { id: 4, name: 'Dr. Bhupesh Yadav', department: 'Orthopedics', specialization: 'Sports Medicine' },
+  { id: 5, name: 'Dr. Nikhil Patel', department: 'Oncology', specialization: 'Medical Oncology' },
+];
+
+export const initialUsers: User[] = [
+  {
+    id: 1,
+    fullName: 'Alice Johnson',
+    email: 'alice.j@example.com',
+    phoneNumber: '555-0101',
+    role: 'User',
+    gender: 'Female',
+    address: '123 Maple St, Springfield, USA',
+    appointmentTime: '2024-08-15 10:00 AM',
+    assignedDoctor: 'Dr. Aman Kushwaha',
+  },
+  {
+    id: 2,
+    fullName: 'Bob Williams',
+    email: 'bob.w@example.com',
+    phoneNumber: '555-0102',
+    role: 'User',
+    gender: 'Male',
+    address: '456 Oak Ave, Springfield, USA',
+    appointmentTime: '2024-08-15 11:30 AM',
+    assignedDoctor: 'Dr. Akash Gupta',
+  },
+  {
+    id: 3,
+    fullName: 'Dr. Akash Gupta',
+    email: 'akash.gupta@hospital.com',
+    phoneNumber: '555-0103',
+    role: 'Doctor',
+    gender: 'Male',
+    address: '789 Pine Ln, Springfield, USA',
+    appointmentTime: 'N/A',
+    assignedDoctor: 'N/A',
+  },
+  {
+    id: 4,
+    fullName: 'Charlie Brown',
+    email: 'charlie.b@example.com',
+    phoneNumber: '555-0104',
+    role: 'User',
+    gender: 'Male',
+    address: '101 Elm Ct, Springfield, USA',
+    appointmentTime: '2024-08-16 09:00 AM',
+    assignedDoctor: 'Dr. Sagar Kushwaha',
+  },
+  {
+    id: 5,
+    fullName: 'Diana Prince',
+    email: 'diana.p@example.com',
+    phoneNumber: '555-0105',
+    role: 'User',
+    gender: 'Female',
+    address: '212 Birch Rd, Springfield, USA',
+    appointmentTime: '2024-08-16 02:00 PM',
+    assignedDoctor: 'Dr. Bhupesh Yadav',
+  },
+];

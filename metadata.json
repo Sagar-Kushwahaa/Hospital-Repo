@@ -1,0 +1,5 @@
+{
+  "name": "HealthPoint Hospital Portal",
+  "description": "A modern, responsive hospital landing page with a role-based portal for administrators, doctors, and users to manage patient information and appointments.",
+  "requestFramePermissions": []
+}
